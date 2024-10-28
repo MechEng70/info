@@ -1,47 +1,152 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/ff05fb5500.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style/style.css">
-    <title>Jason Glithero</title>
+    <title>Jason Glithero - Medical Device R&D/Technology Leader</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #566674;
+            --accent-orange: #E67E22;
+            --light-gray: #F5F6F7;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            color: #2C3E50;
+        }
+        .bg-primary {
+            background-color: var(--primary-blue);
+        }
+        .text-accent {
+            color: var(--accent-orange);
+        }
+        .border-accent {
+            border-color: var(--accent-orange);
+        }
+        .quote-box {
+            background-color: var(--light-gray);
+        }
+    </style>
 </head>
-<body>
-    <main>
-        <section id="bio">
-            <figure id="profile-image-container">
-                <img src="http://jason.glithero.icu/profile.jpg" style="width: 55vw; min-width: 330px;"  >
-            </figure>
-            <article id="text-holder">
-                <h1 id="name">Jason Glithero</h1>
-                <h2 id="occupation">Executive R&D Leader Specialized in Product Development & Portfolio Management</h2>
-            </article>
-            <nav id="menu-links">
-                <ul id="list-container">
-                    <li id="linkedin-button">
-                        <a class="button" href="https://www.linkedin.com/in/jasonglithero/" target="_blank"><i class="fa-brands fa-linkedin"></i>L I N K E D I N</a>
-                    </li>
-                    <li id="booking-button">
-                        <a class="button" href="https://calendar.app.google/mvs5yWDrxgCWmK6Q6" target="_blank"><i class="fa-brands fa-instagram"></i>B O O K T I M E</a>
-                    </li>
-                    <li id="resume-button">
-                        <a class="button" href="https://drive.google.com/file/d/1lWBOwQgOkt4wj7ktlMzO53msJAmc2QaX/view?usp=sharing target="_blank"><i class="fa-brands fa-discord"></i>Resume</a>
-                    </li>
-                    <li id="whatsapp-button">
-                        <a class="button" href="https://wa.me/16789358399" target="_blank"><i class="fa-brands fa-whatsapp"></i>W H A T S A P P</a>
-                    </li>
-                    <li id="patents-button">
-                        <a class="button" href="https://patents.google.com/?inventor=jason+glithero&num=100&clustered=true" target="_blank"><i class="fa-brands fa-telegram"></i>PATENTS</a>
-                    </li>
+<body class="bg-gray-50">
+    <header class="bg-primary text-white py-12 text-center">
+        <h1 class="text-5xl font-light mb-4">JASON GLITHERO</h1>
+        <h2 class="text-xl font-light">Medical Device R&D/Technology Leader</h2>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 py-8">
+        <section class="flex flex-col md:flex-row gap-8 items-start mb-12">
+            <div class="md:w-1/3">
+                <div class="w-64 h-64 rounded-full overflow-hidden mx-auto">
+                    <img src="/api/placeholder/256/256" alt="Placeholder for Jason Glithero" class="w-full h-full object-cover">
+                </div>
+            </div>
+            <div class="md:w-2/3">
+                <h2 class="text-3xl text-primary-blue mb-4">ABOUT JASON</h2>
+                <p class="text-lg mb-6">Guided by the belief that 'it isn't a medical device until it gets used on a patient' Jason's R&D leadership is firmly market focused. His innate technical acumen enables him to determine additional R&D pathways, no matter the device type. Equally adept at managing medical device portfolios and the teams that make them a reality, Jason is a full stack medical technology leader.</p>
+                <div class="flex flex-col gap-2">
+                    <div class="flex items-center gap-2">
+                        <span class="text-accent font-semibold">LinkedIn:</span>
+                        <a href="https://www.linkedin.com/in/jasonglithero/" class="text-blue-600 hover:underline">linkedin.com/in/jasonglithero</a>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="text-accent font-semibold">Location:</span>
+                        <span>SF East Bay, California</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div class="text-center">
+                <h3 class="text-4xl font-bold mb-2">13</h3>
+                <p class="text-sm uppercase">Devices to Market</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-4xl font-bold mb-2">$150K-$3.8M</h3>
+                <p class="text-sm uppercase">Project Budgets</p>
+            </div>
+            <div class="text-center">
+                <h3 class="text-4xl font-bold mb-2">$6M</h3>
+                <p class="text-sm uppercase">Cost Savings</p>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl text-primary-blue mb-6">APPLIED EXPERTISE</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <ul class="space-y-3">
+                    <li>• Concept Ideation → Development → Production</li>
+                    <li>• Cost control through R&D Process</li>
+                    <li>• Cost reduction in manufacturing process</li>
+                    <li>• Vendor & partner collaborations</li>
+                    <li>• R&D strategy to support Regulatory submissions</li>
+                    <li>• Post-market device iterations</li>
                 </ul>
-            </nav>
+                <ul class="space-y-3">
+                    <li>• Market-focused development</li>
+                    <li>• Tech translation that supports capital raises</li>
+                    <li>• R&D protocols that pass M&A due diligence</li>
+                    <li>• Novel solutions to R&D roadblocks</li>
+                    <li>• Efficient Transfer to Manufacturing</li>
+                    <li>• OUS Manufacturing Transfer</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl text-primary-blue mb-6">DEVICE SUCCESSES</h2>
+            <ul class="space-y-4">
+                <li><strong>Stryker →</strong> Neurovascular catheters for Tx of acute ischemic stroke</li>
+                <li><strong>Atricure →</strong> Cosgrove-Gillinov Stroke Prevention Device, Coolrail™ linear pen, +6</li>
+                <li><strong>Enable Injections →</strong> Patient Injectable</li>
+                <li><strong>Bard →</strong> SureStep Foley Tray/DigniShield, Urine Bag/Monitor System</li>
+                <li><strong>Johnson & Johnson →</strong> VITROS Chemistry System</li>
+                <li><strong>Vertigone →</strong> Goggles</li>
+                <li><strong>QuanTECH →</strong> ER Test Equipment</li>
+            </ul>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div class="quote-box p-6 rounded-lg">
+                <div class="text-4xl text-primary-blue mb-4">"</div>
+                <p class="mb-4">Jason's engineering expertise, vast product knowledge, and continual focus on the end user are the foundations of his technological leadership.</p>
+                <p class="mb-2">The reliability and safety records of his devices and the number of engineers he mentored who went on to become leaders in our industry is evidence of his influence in action.</p>
+                <p class="text-accent font-semibold mt-4">- CHRIS PARK, ATRICURE</p>
+            </div>
+            <div class="quote-box p-6 rounded-lg">
+                <div class="text-4xl text-primary-blue mb-4">"</div>
+                <p class="mb-4">I've worked with Jason for years, and his leadership and product development skills are extraordinary. He is more IP-savvy than most and is a prolific inventor.</p>
+                <p class="mb-2">He is a solid engineer, and was well-respected by his colleagues and management at our company.</p>
+                <p class="text-accent font-semibold mt-4">- BRIAN BURN, ASSISTANT GENERAL COUNSEL AT BECTON DICKINSON & CO.</p>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl text-primary-blue mb-6">CREDENTIALS & AWARDS</h2>
+            <ul class="space-y-3">
+                <li><strong>BSME,</strong> Arizona State University</li>
+                <li><strong>MSME,</strong> Wright State University</li>
+                <li><strong>PE,</strong> Registered in the State of Ohio</li>
+                <li><strong>Primus</strong> EPIC Technical Achievement Award</li>
+            </ul>
+        </section>
+
+        <section class="bg-primary text-white p-8 rounded-lg">
+            <h2 class="text-2xl mb-4">AVAILABILITY</h2>
+            <p class="mb-6">Jason is interested in technical leadership (CTO) opportunities at medtech startups and is pleased to act as a subject matter expert for investors and analysts, schedule allowing.</p>
+            
+            <h2 class="text-2xl mb-4">CONTACT</h2>
+            <div class="space-y-2">
+                <p><a href="mailto:jason.glithero@gmail.com" class="hover:underline">jason.glithero@gmail.com</a></p>
+                <p>(678) 935-8399</p>
+            </div>
         </section>
     </main>
+
+    <footer class="bg-primary text-white text-center py-4 mt-12">
+        <p>&copy; 2024 Jason Glithero. All rights reserved.</p>
+    </footer>
 </body>
 </html>
